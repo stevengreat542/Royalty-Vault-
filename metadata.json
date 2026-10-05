@@ -1,0 +1,6 @@
+{
+  "name": "Royalty Vault - Bitcoin Cloud Mining",
+  "description": "High-efficiency cloud Bitcoin mining network simulator with real-time reactor node, rig upgrades, mining pools, streak bonuses, and live blockchain hash telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
