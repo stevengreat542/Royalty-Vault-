@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { X, UserCheck, KeyRound, Mail, User, ShieldCheck, ArrowRight, Lock, Sparkles, LogOut, CheckCircle2, Crown } from 'lucide-react';
 import { useMining } from '../context/MiningContext';
 import { THEME_CONFIGS } from '../utils/theme';
+import logoImg from '../assets/images/royalty_vault_logo_new_1791166309923.jpg';
 
 interface AuthModalProps {
   isOpen: boolean;
@@ -120,9 +121,11 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
 
         {/* Header */}
         <div className="flex items-center gap-3 mb-5">
-          <div className="p-3 rounded-2xl bg-amber-500/15 border border-amber-500/30 text-amber-400">
-            <Crown className="w-6 h-6 fill-amber-400/20" />
-          </div>
+          <img 
+            src={logoImg} 
+            alt="Royalty Sovereign Vault Logo" 
+            className="w-12 h-12 rounded-2xl border border-amber-500/50 object-cover shadow-lg shadow-amber-500/10"
+          />
           <div>
             <h3 className="text-lg font-bold font-tech text-white">
               {currentUser ? 'Vault Node Account' : mode === 'login' ? 'Vault Authentication' : 'Create Mining Account'}

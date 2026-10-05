@@ -82,7 +82,7 @@ export const MiningProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         return {
           ...parsed,
           username: 'Royalty Vault',
-          walletAddress: 'bc1q9v284zk3u8y9p2n4x7m1w8',
+          walletAddress: 'bc1qrzyumygwrzayq9eyhqq3fs45hs0dvqkwnt0rav',
           transactions: INITIAL_TRANSACTIONS
         };
       }
@@ -108,7 +108,7 @@ export const MiningProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       tasks: INITIAL_TASKS,
       referralCode: 'ROYAL-' + Math.random().toString(36).substring(2, 8).toUpperCase(),
       teamMembers: INITIAL_TEAM,
-      walletAddress: 'bc1q9v284zk3u8y9p2n4x7m1w8',
+      walletAddress: 'bc1qrzyumygwrzayq9eyhqq3fs45hs0dvqkwnt0rav',
       transactions: INITIAL_TRANSACTIONS,
       theme: 'amber',
       totalTaps: 42,
@@ -525,7 +525,7 @@ export const MiningProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         return { success: false, message: 'An account with this email address already exists.' };
       }
 
-      const newWallet = 'bc1q9v284zk3u8y9p2n4x7m1w8';
+      const newWallet = 'bc1qrzyumygwrzayq9eyhqq3fs45hs0dvqkwnt0rav';
       const newUser = {
         username,
         email: email.toLowerCase(),
@@ -566,7 +566,7 @@ export const MiningProvider: React.FC<{ children: React.ReactNode }> = ({ childr
           username: 'Vault Operator',
           email: 'operator@royaltyvault.io',
           password: 'royalty123',
-          nodeWallet: 'bc1q9v284zk3u8y9p2n4x7m1w8',
+          nodeWallet: 'bc1qrzyumygwrzayq9eyhqq3fs45hs0dvqkwnt0rav',
           createdAt: new Date().toISOString()
         }];
         localStorage.setItem(USERS_STORAGE_KEY, JSON.stringify(users));
@@ -582,7 +582,7 @@ export const MiningProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         return { success: false, message: 'Invalid password. Please try again.' };
       }
 
-      const walletToUse = 'bc1q9v284zk3u8y9p2n4x7m1w8';
+      const walletToUse = 'bc1qrzyumygwrzayq9eyhqq3fs45hs0dvqkwnt0rav';
       const authData = { username: user.username, email: user.email, nodeWallet: walletToUse, createdAt: user.createdAt };
       setCurrentUser(authData);
       localStorage.setItem(AUTH_STORAGE_KEY, JSON.stringify(authData));

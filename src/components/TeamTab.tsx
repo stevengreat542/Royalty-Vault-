@@ -12,7 +12,7 @@ export const TeamTab: React.FC = () => {
   const [copied, setCopied] = useState(false);
   const [friendNameInput, setFriendNameInput] = useState('');
 
-  const referralLink = `https://royalty.mine/join?ref=${state.referralCode}`;
+  const referralLink = `https://ais-dev-7rg6rlvuiqypso43wtowip-178918081640.europe-west3.run.app/?ref=${state.referralCode}`;
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(referralLink);

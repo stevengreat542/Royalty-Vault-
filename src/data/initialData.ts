@@ -194,7 +194,7 @@ export const INITIAL_TRANSACTIONS: PayoutTransaction[] = [
     timestamp: new Date('2026-10-04T23:09:00').getTime(),
     txHash: '0xa4052237...f38a',
     status: 'Completed',
-    walletAddress: 'bc1q9v284zk3u8y9p2n4x7m1w8'
+    walletAddress: 'bc1qrzyumygwrzayq9eyhqq3fs45hs0dvqkwnt0rav'
   },
   {
     id: 'tx_002',
@@ -203,7 +203,7 @@ export const INITIAL_TRANSACTIONS: PayoutTransaction[] = [
     timestamp: new Date('2026-10-02T23:01:00').getTime(),
     txHash: '0x8f2a...9b4c',
     status: 'Completed',
-    walletAddress: 'bc1q9v284zk3u8y9p2n4x7m1w8'
+    walletAddress: 'bc1qrzyumygwrzayq9eyhqq3fs45hs0dvqkwnt0rav'
   },
   {
     id: 'tx_003',
@@ -212,7 +212,7 @@ export const INITIAL_TRANSACTIONS: PayoutTransaction[] = [
     timestamp: new Date('2026-09-29T23:01:00').getTime(),
     txHash: '0x3c1d...e72f',
     status: 'Completed',
-    walletAddress: 'bc1q9v284zk3u8y9p2n4x7m1w8'
+    walletAddress: 'bc1qrzyumygwrzayq9eyhqq3fs45hs0dvqkwnt0rav'
   },
   {
     id: 'tx_004',
@@ -221,7 +221,7 @@ export const INITIAL_TRANSACTIONS: PayoutTransaction[] = [
     timestamp: new Date('2026-09-25T14:45:00').getTime(),
     txHash: '0x7e2d...4a1b',
     status: 'Completed',
-    walletAddress: 'bc1q9v284zk3u8y9p2n4x7m1w8'
+    walletAddress: 'bc1qrzyumygwrzayq9eyhqq3fs45hs0dvqkwnt0rav'
   },
   {
     id: 'tx_005',
@@ -230,7 +230,7 @@ export const INITIAL_TRANSACTIONS: PayoutTransaction[] = [
     timestamp: new Date('2026-09-20T18:12:00').getTime(),
     txHash: '0x1b2c...df5e',
     status: 'Completed',
-    walletAddress: 'bc1q9v284zk3u8y9p2n4x7m1w8'
+    walletAddress: 'bc1qrzyumygwrzayq9eyhqq3fs45hs0dvqkwnt0rav'
   },
   {
     id: 'tx_006',
@@ -239,7 +239,7 @@ export const INITIAL_TRANSACTIONS: PayoutTransaction[] = [
     timestamp: new Date('2026-09-15T09:30:00').getTime(),
     txHash: '0x4d5e...12af',
     status: 'Completed',
-    walletAddress: 'bc1q9v284zk3u8y9p2n4x7m1w8'
+    walletAddress: 'bc1qrzyumygwrzayq9eyhqq3fs45hs0dvqkwnt0rav'
   },
   {
     id: 'tx_007',
@@ -248,7 +248,7 @@ export const INITIAL_TRANSACTIONS: PayoutTransaction[] = [
     timestamp: new Date('2026-09-10T11:15:00').getTime(),
     txHash: '0x9f8e...cb3d',
     status: 'Completed',
-    walletAddress: 'bc1q9v284zk3u8y9p2n4x7m1w8'
+    walletAddress: 'bc1qrzyumygwrzayq9eyhqq3fs45hs0dvqkwnt0rav'
   },
   {
     id: 'tx_008',
@@ -257,7 +257,7 @@ export const INITIAL_TRANSACTIONS: PayoutTransaction[] = [
     timestamp: new Date('2026-09-05T20:05:00').getTime(),
     txHash: '0x5a4b...2d3e',
     status: 'Completed',
-    walletAddress: 'bc1q9v284zk3u8y9p2n4x7m1w8'
+    walletAddress: 'bc1qrzyumygwrzayq9eyhqq3fs45hs0dvqkwnt0rav'
   }
 ];
 
